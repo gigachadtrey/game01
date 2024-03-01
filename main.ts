@@ -146,3 +146,4 @@ controller.moveSprite(Trey, 100, 0)
 tiles.setCurrentTilemap(tilemap`level1`)
 Trey.ay = 200
 Trey.setPosition(10, 10)
+scene.cameraFollowSprite(Trey)
